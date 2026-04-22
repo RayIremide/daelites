@@ -64,7 +64,7 @@ const Courses = () => {
                       rel="noopener noreferrer"
                       className="inline-block w-full"
                     >
-                      <Button className=" m-auto lg:text-[#fff] bg-[#8CC63F] rounded-[5px] py-[15px] px-[30px] text-[12px] lg:text-[16px] font-[600] w-fit  hover:bg-transparent border-2 border-[#8CC63F] hover:text-[#8CC63F]">
+                      <Button className="w-full m-auto lg:text-[#fff] bg-[#8CC63F] rounded-[5px] py-[15px] px-[30px] text-[12px] lg:text-[16px] font-[600]   hover:bg-transparent border-2 border-[#8CC63F] hover:text-[#8CC63F]">
                         Enroll now
                       </Button>
                     </Link>
