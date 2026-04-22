@@ -54,15 +54,15 @@ const Courses = () => {
                     ))}
                   </div>
 
-                  <div className="flex justify-between items-center">
-                    <p className="text-[20px] lg:text-[30px] font-[700] text-[#107C41]">
+                  <div className="flex w-full">
+                    {/* <p className="text-[20px] lg:text-[30px] font-[700] text-[#107C41]">
                       {course.fee}
-                    </p>
+                    </p> */}
                     <Link
                       href={course.paymentLink}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-block "
+                      className="inline-block w-full"
                     >
                       <Button className=" m-auto lg:text-[#fff] bg-[#8CC63F] rounded-[5px] py-[15px] px-[30px] text-[12px] lg:text-[16px] font-[600] w-fit  hover:bg-transparent border-2 border-[#8CC63F] hover:text-[#8CC63F]">
                         Enroll now
